@@ -10,6 +10,7 @@ nav  {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
+
 }
 nav p{
     margin-left: 100px;
@@ -42,12 +43,25 @@ nav p:hover{
 }
 .info  {
     
-    width: 400px;
+    width: 24.86%;
     height: 100vh; 
-    background-color: lightblue;
-    display:flex;
-    flex-direction: column;}
-.info img{
+}
+#hello{
+    display: flex;
+    flex-direction:row;
+    width:100vh;
+    background-color: antiquewhite;
+}
+#Back_to_text {
+    margin-left: 50%;
+}
+#School_text{
+    font-size: 30px;
+    margin-left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main_index_div {
+    width: 100%;
     height: 100vh;
-    width: 100%
+    background-color: brown;
 }
