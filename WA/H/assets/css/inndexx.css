@@ -52,12 +52,8 @@ nav p:hover{
     width:100vh;
     background-color: antiquewhite;
 }
-#Back_to_text {
-    margin-left: 50%;
-}
 #School_text{
     font-size: 30px;
-    margin-left: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #main_index_div {
@@ -70,11 +66,38 @@ nav p:hover{
 #picture {
     width: 30%;
     height: 100%;
-    background-color: blue;
+    background-color: antiquewhite;
 
 }
 #Intro2 {
-    width:70%;
+    width:100%;
     height: 100%;
-    background-color: blanchedalmond;
+    background-image: url("https://img.freepik.com/premium-vector/back-school-seamless-pattern-with-education-supplies-stationery-light-background_198278-1235.jpg?w=2000");
+    text-align: center;
+}
+#main_index_div {
+    background-color:black
+}
+#bar {
+    width:100%;
+    height: 250px;
+    background-color:azure;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+#word {
+    background-color:azure;
+    margin-top:300px
+}
+.line {
+    width: 2px;
+    height:100%;
+    background-color: black;
+}
+.web {
+    text-decoration: none;
+    color:black
+
 }
