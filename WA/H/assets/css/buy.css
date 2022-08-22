@@ -1,0 +1,27 @@
+nav  {
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+
+}
+nav a{
+    margin-left: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+    
+    
+    
+}
+h1, p, h2, h3, h4, a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkgray
+}
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}

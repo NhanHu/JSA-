@@ -44,7 +44,7 @@ let products = [
 ]
 let items = document.querySelector('#first-div')
 for (i of products){
-    items.innerHTML += `<div class="small_div" id="${i.id}"><img src=${i.img}> <h4 id = ${products.id}>${i.name}</h4><div class = "button" onclick="onclicks('${i.img}', '${i.name}', '${i.des}')"><p>Click here to buy</p></div></div>`
+    items.innerHTML += `<div class="small_div" id="${i.id}"><img src=${i.img}> <h4 id = ${products.id}>${i.name}</h4><div class = "button" onclick="onclicks('${i.img}', '${i.name}', '${i.des}')"><a id="a"href="/Users/tom/Desktop/JSA-/WA/H/assets/Buy.html">Click here to buy</a></div></div>`
 }
 console.dir()
 
