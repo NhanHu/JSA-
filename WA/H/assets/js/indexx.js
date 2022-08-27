@@ -1,4 +1,5 @@
 
+localStorage.setItem("Confirm", {})
 $(document).ready(function(){
     $("#intro").click(function(){
       $("#pic1").fadeIn(1000).fadeOut(4000)

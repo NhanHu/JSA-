@@ -44,8 +44,9 @@ h1, p, h2, h3, h4, a{
     align-items: center;
 }
 #hello {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 60%;
+    margin-top: 10%
 }
 #Confirm{
     color: #0000;
@@ -60,3 +61,10 @@ h1, p, h2, h3, h4, a{
 #Confirm:hover {
     --_p: 0%;
   }
+#imgs {
+    background-color: aqua;
+    width: 50%;
+    height: 60%;
+    text-align: center
+    
+}
