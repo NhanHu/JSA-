@@ -82,3 +82,32 @@ h1, p, h2, h3, h4, a{
     text-decoration: none;
     color: azure;
 }
+#parent {
+    width: 100%;
+    height: 100vh;
+    background-color:beige;
+    display: flex;
+    flex-direction:row;
+}
+#Confirm-page {
+    width:100%;
+    height: 100%;
+    background-color:blue;
+}
+#Confirm button p{
+    text-align:center
+    
+}
+#hello {
+    width: 100%;
+    background-color: cadetblue;
+    height: 100px;
+}
+#hehe {
+    height: 100%;
+    background-color:chocolate;
+    display:flex;
+    display: row;
+    gap: 100px;
+    flex-wrap: wrap;
+}
