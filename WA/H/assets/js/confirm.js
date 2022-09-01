@@ -33,3 +33,4 @@ function Del(v){
 function RESET(){
     localStorage.setItem("yeah", JSON.stringify([]))
 }
+hellorjfj
