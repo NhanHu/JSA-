@@ -1,7 +1,9 @@
 nav  {
     width: 100%;
     height: 30px;
-    background-color: aliceblue;
+    background-color: #90AFC5
+
+    ;
     display: flex;
     flex-direction: row;
 
@@ -28,7 +30,7 @@ h1, p, h2, h3, h4, a{
 #Div {
     width: 100%;
     height: 100vh;
-    background-color: azure;
+    background-color: #763626;
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -37,7 +39,7 @@ h1, p, h2, h3, h4, a{
 #Small_div{
     width: 50%;
     height: 60%;
-    background-color: antiquewhite;
+    background-color: #2A3132;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -62,7 +64,7 @@ h1, p, h2, h3, h4, a{
     --_p: 0%;
   }
 #imgs {
-    background-color: aqua;
+    background-color: #2A3132;
     width: 50%;
     height: 60%;
     text-align: center
